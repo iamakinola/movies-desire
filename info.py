@@ -19,7 +19,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://i.postimg.cc/Cxgvpzwq/house-of-dragon.jpg https://i.postimg.cc/zfD036bD/jeff-dahmer-netflix.jpg https://i.postimg.cc/1ttwZZg6/money-heist.jpg https://i.postimg.cc/bw9mypvF/power.jpg https://i.postimg.cc/9z37TRLt/prison-break.jpg https://i.postimg.cc/d1xdsSdf/review-the-boy-in-the-striped-pyjamas-2008.jpg https://i.postimg.cc/5NvPrwWJ/rings-of-power.jpg https://i.postimg.cc/dQhN8bWL/stranger-things.jpg https://i.postimg.cc/wMRN7cQj/top-gun.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.postimg.cc/Cxgvpzwq/house-of-dragon.jpg https://i.postimg.cc/zfD036bD/jeff-dahmer-netflix.jpg https://i.postimg.cc/1ttwZZg6/money-heist.jpg https://i.postimg.cc/bw9mypvF/power.jpg https://i.postimg.cc/9z37TRLt/prison-break.jpg https://i.postimg.cc/d1xdsSdf/review-the-boy-in-the-striped-pyjamas-2008.jpg https://i.postimg.cc/5NvPrwWJ/rings-of-power.jpg https://i.postimg.cc/dQhN8bWL/stranger-things.jpg https://i.postimg.cc/wMRN7cQj/top-gun.jpg https://i.postimg.cc/7Yhn00mD/devils.jpg https://i.postimg.cc/qvCcZrP5/dont-breathe.jpg https://i.postimg.cc/gjkqMZpV/saw.jpg https://i.postimg.cc/yxQh286w/black.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
