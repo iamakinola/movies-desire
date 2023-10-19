@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
-</p>
+
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>buddycorn</b>
 </h1>
 
 
