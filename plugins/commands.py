@@ -58,6 +58,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
+        await b.copy_message(m.chat.id, Var.BIN_CHANNEL, 159931, "tutorials on how to use bot")
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
