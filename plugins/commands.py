@@ -72,7 +72,7 @@ async def start(client, message):
                 )
             ]
         ]
-
+await b.copy_message(m.chat.id, Var.BIN_CHANNEL, 157194, "tutorials on how to use bot")
         if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
@@ -105,6 +105,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
+        await b.copy_message(m.chat.id, Var.BIN_CHANNEL, 157194, "tutorials on how to use bot")
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
